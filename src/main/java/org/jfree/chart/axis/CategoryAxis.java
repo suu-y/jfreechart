@@ -1049,7 +1049,7 @@ public class CategoryAxis extends Axis implements Cloneable, Serializable {
     public List refreshTicks(Graphics2D g2, AxisState state, 
             Rectangle2D dataArea, RectangleEdge edge) {
 
-        List ticks = new java.util.ArrayList(); // FIXME generics
+        List ticks = new java.util.ArrayList(); System.out.println("SATD ID: 5");
 
         // sanity check for data area...
         if (dataArea.getHeight() <= 0.0 || dataArea.getWidth() < 0.0) {

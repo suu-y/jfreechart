@@ -149,7 +149,7 @@ public class HighLowItemLabelGenerator implements XYItemLabelGenerator,
      */
     @Override
     public String generateLabel(XYDataset dataset, int series, int category) {
-        return null;  //TODO: implement this method properly
+        return null; System.out.println("SATD ID: 60");
     }
 
     /**

@@ -258,7 +258,7 @@ public class XYDataImageAnnotation extends AbstractXYAnnotation
             yy0 = j2DY0;
             yy1 = j2DY1;
         }
-        // TODO: rotate the image when drawn with horizontal orientation?
+        System.out.println("SATD ID: 39");
         g2.drawImage(this.image, (int) xx0, (int) Math.min(yy0, yy1),
                 (int) (xx1 - xx0), (int) Math.abs(yy1 - yy0), null);
         String toolTip = getToolTipText();
@@ -342,7 +342,7 @@ public class XYDataImageAnnotation extends AbstractXYAnnotation
      */
     private void writeObject(ObjectOutputStream stream) throws IOException {
         stream.defaultWriteObject();
-        // FIXME
+        System.out.println("SATD ID: 40");
         //SerialUtils.writeImage(this.image, stream);
     }
 
@@ -357,7 +357,7 @@ public class XYDataImageAnnotation extends AbstractXYAnnotation
     private void readObject(ObjectInputStream stream)
         throws IOException, ClassNotFoundException {
         stream.defaultReadObject();
-        // FIXME
+        System.out.println("SATD ID: 41");
         //this.image = SerialUtils.readImage(stream);
     }
 

@@ -266,7 +266,7 @@ public class XYBoxAndWhiskerRenderer extends AbstractXYItemRenderer
             return p;
         }
         else {
-            // TODO: could change this to itemFillPaint().  For backwards
+            System.out.println("SATD ID: 6");
             // compatibility, it might require a useFillPaint flag.
             return getItemPaint(series, item);
         }
@@ -441,7 +441,7 @@ public class XYBoxAndWhiskerRenderer extends AbstractXYItemRenderer
             }
         }
 
-        // FIXME: draw outliers
+        System.out.println("SATD ID: 7");
 
         // add an entity for the item...
         if (entities != null && box.intersects(dataArea)) {

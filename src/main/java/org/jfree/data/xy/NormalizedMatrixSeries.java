@@ -105,7 +105,7 @@ public class NormalizedMatrixSeries extends MatrixSeries {
      */
     public void setScaleFactor(double factor) {
         this.m_scaleFactor = factor;
-        // FIXME: this should generate a series change event
+        System.out.println("SATD ID: 50");
     }
 
 

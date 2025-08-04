@@ -184,7 +184,7 @@ public class CenterArrangement implements Arrangement, Serializable {
     protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
 
-        // TODO: implement this properly
+        System.out.println("SATD ID: 17");
         return arrangeFN(container, g2, constraint);
     }
 
@@ -205,7 +205,7 @@ public class CenterArrangement implements Arrangement, Serializable {
         // the required ranges...
         Size2D s1 = arrangeNN(container, g2);
         if (constraint.getWidthRange().contains(s1.width)) {
-            return s1;  // TODO: we didn't check the height yet
+            return s1; System.out.println("SATD ID: 18");
         }
         else {
             RectangleConstraint c = constraint.toFixedWidth(
@@ -292,7 +292,7 @@ public class CenterArrangement implements Arrangement, Serializable {
      */
     protected Size2D arrangeNF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
-        // TODO: for now we are ignoring the height constraint
+        System.out.println("SATD ID: 19");
         return arrangeNN(container, g2);
     }
 

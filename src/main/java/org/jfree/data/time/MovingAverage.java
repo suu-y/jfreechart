@@ -194,7 +194,7 @@ public class MovingAverage {
             // get the current data item...
             TimeSeriesDataItem current = source.getRawDataItem(i);
             RegularTimePeriod period = current.getPeriod();
-            // FIXME: what if value is null on next line?
+            System.out.println("SATD ID: 33");
             rollingSumForPeriod += current.getValue().doubleValue();
 
             if (i > pointCount - 1) {

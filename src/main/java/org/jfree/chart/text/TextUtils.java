@@ -440,7 +440,7 @@ public class TextUtils {
         g2.transform(rotate);
 
         if (useDrawRotatedStringWorkaround) {
-            // workaround for JDC bug ID 4312117 and others...
+            System.out.println("SATD ID: 45");
             TextLayout tl = new TextLayout(text, g2.getFont(),
                     g2.getFontRenderContext());
             tl.draw(g2, textX, textY);

@@ -218,7 +218,7 @@ public class WaferMapPlot extends Plot implements RendererChangeListener,
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME : handle the renderer
+        System.out.println("SATD ID: 3");
         super.receive(visitor);
     }
 

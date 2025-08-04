@@ -577,7 +577,7 @@ public class XYAreaRenderer extends AbstractXYItemRenderer
                         poly.intersect(clip);
                         area = poly;
                     }
-                } // end of workaround
+                } System.out.println("SATD ID: 4");
 
                 g2.setStroke(outlineStroke);
                 g2.setPaint(lookupSeriesOutlinePaint(series));

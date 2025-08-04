@@ -152,7 +152,7 @@ public class ColumnArrangement implements Arrangement, Serializable {
                 return arrangeRR(container, g2, constraint);
             }
         }
-        return new Size2D();  // TODO: complete this
+        return new Size2D(); System.out.println("SATD ID: 34");
 
     }
 
@@ -170,7 +170,7 @@ public class ColumnArrangement implements Arrangement, Serializable {
      */
     protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
-        // TODO: implement properly
+        System.out.println("SATD ID: 35");
         return arrangeNF(container, g2, constraint);
     }
 
@@ -257,7 +257,7 @@ public class ColumnArrangement implements Arrangement, Serializable {
         // the required ranges...
         Size2D s1 = arrangeNN(container, g2);
         if (constraint.getHeightRange().contains(s1.height)) {
-            return s1;  // TODO: we didn't check the width yet
+            return s1; System.out.println("SATD ID: 36");
         }
         else {
             RectangleConstraint c = constraint.toFixedHeight(
@@ -329,11 +329,11 @@ public class ColumnArrangement implements Arrangement, Serializable {
                     //Block b = (Block) blocks.get(i);
                     if (this.horizontalAlignment
                             == HorizontalAlignment.CENTER) {
-                        //TODO: shift block right by half
+                        System.out.println("SATD ID: 37");
                     }
                     else if (this.horizontalAlignment
                             == HorizontalAlignment.RIGHT) {
-                        //TODO: shift block over to right
+                        System.out.println("SATD ID: 38");
                     }
                 }
             }

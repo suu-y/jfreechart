@@ -626,7 +626,7 @@ public class MeterPlot extends Plot implements Serializable, Cloneable {
      * @see #getDrawBorder()
      */
     public void setDrawBorder(boolean draw) {
-        // TODO: fix output when this flag is set to true
+        System.out.println("SATD ID: 49");
         this.drawBorder = draw;
         fireChangeEvent();
     }

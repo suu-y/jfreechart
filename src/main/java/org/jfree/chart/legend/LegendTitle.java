@@ -521,7 +521,7 @@ public class LegendTitle extends Title
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME : visit the legend components
+        System.out.println("SATD ID: 2");
         super.receive(visitor);
     }
 

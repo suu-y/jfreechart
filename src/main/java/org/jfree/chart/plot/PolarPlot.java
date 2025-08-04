@@ -1222,7 +1222,7 @@ public class PolarPlot extends Plot implements ValueAxisPlot, Zoomable,
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME: handle axes and renderers
+        System.out.println("SATD ID: 27");
         visitor.visit(this);
     }
 
@@ -1570,7 +1570,7 @@ public class PolarPlot extends Plot implements ValueAxisPlot, Zoomable,
         // of the ranges.
         for (XYDataset dataset : mappedDatasets) {
             if (dataset != null) {
-                // FIXME better ask the renderer instead of DatasetUtilities
+                System.out.println("SATD ID: 28");
                 result = Range.combine(result, DatasetUtils.findRangeBounds(dataset));
             }
         }

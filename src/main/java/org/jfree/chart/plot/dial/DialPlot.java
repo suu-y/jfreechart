@@ -506,7 +506,7 @@ public class DialPlot extends Plot implements DialLayerChangeListener {
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME : handle the subcomponents
+        System.out.println("SATD ID: 20");
         super.receive(visitor);
     }
 

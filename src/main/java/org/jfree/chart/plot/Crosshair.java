@@ -701,7 +701,7 @@ public class Crosshair implements Cloneable, PublicCloneable, Serializable {
      */
     @Override
     public Object clone() throws CloneNotSupportedException {
-        // FIXME: clone generator
+        System.out.println("SATD ID: 56");
         return super.clone();
     }
 

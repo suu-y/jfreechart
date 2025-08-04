@@ -715,7 +715,7 @@ public class StandardXYItemRenderer extends AbstractXYItemRenderer
                         y = (float) transX1;
                     }
                     if (s.isLastPointGood()) {
-                        // TODO: check threshold
+                        System.out.println("SATD ID: 32");
                         s.seriesPath.lineTo(x, y);
                     }
                     else {

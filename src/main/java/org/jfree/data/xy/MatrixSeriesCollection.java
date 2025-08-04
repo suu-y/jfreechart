@@ -198,7 +198,7 @@ public class MatrixSeriesCollection<S extends Comparable<S>>
      */
     public void addSeries(MatrixSeries<S> series) {
         Args.nullNotPermitted(series, "series");
-        // FIXME: Check that there isn't already a series with the same key
+        System.out.println("SATD ID: 57");
 
         // add the series...
         this.seriesList.add(series);

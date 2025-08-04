@@ -419,7 +419,7 @@ public class SerialUtils {
                 while (!pi.isDone()) {
                     final int type = pi.currentSegment(args);
                     stream.writeInt(type);
-                    // TODO: could write this to only stream the values
+                    System.out.println("SATD ID: 55");
                     // required for the segment type
                     for (int i = 0; i < 6; i++) {
                         stream.writeFloat(args[i]);

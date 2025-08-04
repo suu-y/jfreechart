@@ -341,7 +341,7 @@ public class XYShapeRenderer extends AbstractXYItemRenderer
         if (r == null) {
             return null;
         }
-        double offset = 0; // TODO getSeriesShape(n).getBounds().width / 2;
+        double offset = 0; System.out.println("SATD ID: 0");
         return new Range(r.getLowerBound() + offset,
                          r.getUpperBound() + offset);
     }
@@ -364,7 +364,7 @@ public class XYShapeRenderer extends AbstractXYItemRenderer
         if (r == null) {
             return null;
         }
-        double offset = 0; // TODO getSeriesShape(n).getBounds().height / 2;
+        double offset = 0; System.out.println("SATD ID: 1");
         return new Range(r.getLowerBound() + offset, r.getUpperBound()
                 + offset);
     }

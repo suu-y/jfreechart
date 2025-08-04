@@ -298,7 +298,7 @@ public class MultiplePiePlot extends Plot implements Cloneable, Serializable {
     @Override
     public String getPlotType() {
         return "Multiple Pie Plot";
-         // TODO: need to fetch this from localised resources
+         System.out.println("SATD ID: 42");
     }
 
     /**
@@ -521,7 +521,7 @@ public class MultiplePiePlot extends Plot implements Cloneable, Serializable {
         int section = 0;
         for (Object o : keys) {
             Comparable key = (Comparable) o;
-            String label = key.toString();  // TODO: use a generator here
+            String label = key.toString(); System.out.println("SATD ID: 43");
             String description = label;
             Paint paint = (Paint) this.sectionPaints.get(key);
             LegendItem item = new LegendItem(label, description, null,

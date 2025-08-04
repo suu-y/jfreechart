@@ -583,7 +583,7 @@ public class CombinedDomainCategoryPlot extends CategoryPlot
      */
     @Override
     public List getCategoriesForAxis(CategoryAxis axis) {
-        // FIXME:  this code means that it is not possible to use more than
+        System.out.println("SATD ID: 51");
         // one domain axis for the combined plots...
         return getCategories();
     }

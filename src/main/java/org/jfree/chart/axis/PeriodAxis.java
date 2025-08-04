@@ -760,7 +760,7 @@ public class PeriodAxis extends ValueAxis
      */
     protected void drawTickMarksVertical(Graphics2D g2, AxisState state,
             Rectangle2D dataArea, RectangleEdge edge) {
-        // FIXME:  implement this...
+        System.out.println("SATD ID: 44");
     }
 
     /**

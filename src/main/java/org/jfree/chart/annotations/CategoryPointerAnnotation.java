@@ -415,7 +415,7 @@ public class CategoryPointerAnnotation extends CategoryTextAnnotation
             + Math.sin(this.angle) * (this.baseRadius + this.labelOffset);
         /* Rectangle2D hotspot = */ TextUtils.drawAlignedString(getText(),
                 g2, (float) labelX, (float) labelY, getTextAnchor());
-        // TODO: implement the entity for the annotation
+        System.out.println("SATD ID: 54");
 
     }
 

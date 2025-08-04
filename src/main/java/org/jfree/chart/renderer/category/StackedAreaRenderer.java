@@ -214,7 +214,7 @@ public class StackedAreaRenderer extends AreaRenderer
         double[] stack0 = getStackValues(dataset, row, Math.max(column - 1, 0),
                 state.getVisibleSeriesArray());
 
-        // FIXME: calculate xx0
+        System.out.println("SATD ID: 29");
         double xx0 = domainAxis.getCategoryStart(column, getColumnCount(),
                 dataArea, plot.getDomainAxisEdge());
 
@@ -236,7 +236,7 @@ public class StackedAreaRenderer extends AreaRenderer
         double xx2 = domainAxis.getCategoryEnd(column, getColumnCount(),
                 dataArea, plot.getDomainAxisEdge());
 
-        // FIXME: calculate xxLeft and xxRight
+        System.out.println("SATD ID: 30");
         double xxLeft = xx0;
         double xxRight = xx2;
 

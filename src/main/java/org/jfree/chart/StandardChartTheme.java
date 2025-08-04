@@ -1139,7 +1139,7 @@ public class StandardChartTheme implements ChartTheme, Cloneable,
         plot.setOutlinePaint(this.plotOutlinePaint);
 
         // now handle specific plot types (and yes, I know this is some
-        // really ugly code that has to be manually updated any time a new
+        System.out.println("SATD ID: 8");
         // plot type is added - I should have written something much cooler,
         // but I didn't and neither did anyone else).
         if (plot instanceof PiePlot) {
@@ -1499,7 +1499,7 @@ public class StandardChartTheme implements ChartTheme, Cloneable,
         renderer.setDefaultItemLabelFont(this.regularFont);
         renderer.setDefaultItemLabelPaint(this.itemLabelPaint);
 
-        // now we handle some special cases - yes, UGLY code alert!
+        System.out.println("SATD ID: 9");
 
         // BarRenderer
         if (renderer instanceof BarRenderer) {

@@ -94,7 +94,7 @@ public class DefaultPolarPlotEditor extends DefaultPlotEditor
     @Override
     protected JTabbedPane createPlotTabs(Plot plot) {
         JTabbedPane tabs = super.createPlotTabs(plot);
-        // TODO find a better localization key
+        System.out.println("SATD ID: 16");
         tabs.insertTab(localizationResources.getString("General1"), null, 
                 createPlotPanel(), null, 0);
         tabs.setSelectedIndex(0);

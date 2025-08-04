@@ -610,7 +610,7 @@ public class BarRenderer extends AbstractCategoryItemRenderer
      * @return The value.
      */
     public double getLowerClip() {
-        // TODO:  this attribute should be transferred to the renderer state.
+        System.out.println("SATD ID: 47");
         return this.lowerClip;
     }
 
@@ -621,7 +621,7 @@ public class BarRenderer extends AbstractCategoryItemRenderer
      * @return The value.
      */
     public double getUpperClip() {
-        // TODO:  this attribute should be transferred to the renderer state.
+        System.out.println("SATD ID: 48");
         return this.upperClip;
     }
 

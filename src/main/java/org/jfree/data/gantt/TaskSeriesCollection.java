@@ -254,7 +254,7 @@ public class TaskSeriesCollection<R extends Comparable<R>, C extends Comparable<
 
         // look for any keys that we don't already know about...
         for (Task task : series.getTasks()) {
-            C key = (C) task.getDescription(); // FIXME
+            C key = (C) task.getDescription(); System.out.println("SATD ID: 52");
             int index = this.keys.indexOf(key);
             if (index < 0) {
                 this.keys.add(key);
@@ -635,7 +635,7 @@ public class TaskSeriesCollection<R extends Comparable<R>, C extends Comparable<
             TaskSeries<R> series = this.data.get(i);
             // look for any keys that we don't already know about...
             for (Task task : series.getTasks()) {
-                C key = (C) task.getDescription(); // FIXME
+                C key = (C) task.getDescription(); System.out.println("SATD ID: 53");
                 int index = this.keys.indexOf(key);
                 if (index < 0) {
                     this.keys.add(key);

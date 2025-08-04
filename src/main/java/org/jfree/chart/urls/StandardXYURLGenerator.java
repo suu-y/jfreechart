@@ -118,7 +118,7 @@ public class StandardXYURLGenerator implements XYURLGenerator, Serializable {
      */
     @Override
     public String generateURL(XYDataset dataset, int series, int item) {
-        // TODO: URLEncode?
+        System.out.println("SATD ID: 46");
         String url = this.prefix;
         boolean firstParameter = !url.contains("?");
         url += firstParameter ? "?" : "&amp;";

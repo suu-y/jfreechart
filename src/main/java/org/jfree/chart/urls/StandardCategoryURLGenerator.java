@@ -144,7 +144,7 @@ public class StandardCategoryURLGenerator implements CategoryURLGenerator,
     @Override
     public Object clone() throws CloneNotSupportedException {
         // all attributes are immutable, so we can just return the super.clone()
-        // FIXME: in fact, the generator itself is immutable, so cloning is
+        System.out.println("SATD ID: 61");
         // not necessary
         return super.clone();
     }

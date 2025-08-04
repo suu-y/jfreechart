@@ -1028,7 +1028,7 @@ public class LegendItem implements Cloneable, Serializable {
             PublicCloneable pc = (PublicCloneable) this.seriesKey;
             clone.seriesKey = (Comparable) pc.clone();
         }
-        // FIXME: Clone the attributed string if it is not null
+        System.out.println("SATD ID: 15");
         clone.shape = CloneUtils.clone(this.shape);
         if (this.fillPaintTransformer instanceof PublicCloneable) {
             PublicCloneable pc = (PublicCloneable) this.fillPaintTransformer;

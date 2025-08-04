@@ -175,7 +175,7 @@ public class CompassPlot extends Plot implements Cloneable, Serializable {
      * @see #setLabelType(int)
      */
     public int getLabelType() {
-        // FIXME: this attribute is never used - deprecate?
+        System.out.println("SATD ID: 10");
         return this.labelType;
     }
 
@@ -187,7 +187,7 @@ public class CompassPlot extends Plot implements Cloneable, Serializable {
      * @see #getLabelType()
      */
     public void setLabelType(int type) {
-        // FIXME: this attribute is never used - deprecate?
+        System.out.println("SATD ID: 11");
         if ((type != NO_LABELS) && (type != VALUE_LABELS)) {
             throw new IllegalArgumentException(
                     "MeterPlot.setLabelType(int): unrecognised type.");
@@ -206,7 +206,7 @@ public class CompassPlot extends Plot implements Cloneable, Serializable {
      * @see #setLabelFont(Font)
      */
     public Font getLabelFont() {
-        // FIXME: this attribute is not used - deprecate?
+        System.out.println("SATD ID: 12");
         return this.labelFont;
     }
 
@@ -219,7 +219,7 @@ public class CompassPlot extends Plot implements Cloneable, Serializable {
      * @see #getLabelFont()
      */
     public void setLabelFont(Font font) {
-        // FIXME: this attribute is not used - deprecate?
+        System.out.println("SATD ID: 13");
         Args.nullNotPermitted(font, "font");
         this.labelFont = font;
         fireChangeEvent();
@@ -526,7 +526,7 @@ public class CompassPlot extends Plot implements Cloneable, Serializable {
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME : handle the needles
+        System.out.println("SATD ID: 14");
         super.receive(visitor);
     }
 

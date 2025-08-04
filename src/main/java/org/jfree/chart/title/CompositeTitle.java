@@ -152,7 +152,7 @@ public class CompositeTitle extends Title implements Cloneable, Serializable {
      */
     @Override
     public void receive(ChartElementVisitor visitor) {
-        // FIXME : add handling for BlockContainer
+        System.out.println("SATD ID: 26");
         visitor.visit(this);
     }
 

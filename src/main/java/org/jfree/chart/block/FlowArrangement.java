@@ -254,7 +254,7 @@ public class FlowArrangement implements Arrangement, Serializable {
     protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
 
-        // TODO: implement this properly
+        System.out.println("SATD ID: 21");
         return arrangeFN(container, g2, constraint);
     }
 
@@ -275,7 +275,7 @@ public class FlowArrangement implements Arrangement, Serializable {
         // the required ranges...
         Size2D s1 = arrangeNN(container, g2);
         if (constraint.getWidthRange().contains(s1.width)) {
-            return s1;  // TODO: we didn't check the height yet
+            return s1; System.out.println("SATD ID: 22");
         }
         else {
             RectangleConstraint c = constraint.toFixedWidth(
@@ -372,11 +372,11 @@ public class FlowArrangement implements Arrangement, Serializable {
                 for (int i = 0; i < blocks.size(); i++) {
                     //Block b = (Block) blocks.get(i);
                     if (this.verticalAlignment == VerticalAlignment.CENTER) {
-                        //TODO: shift block down by half
+                        System.out.println("SATD ID: 23");
                     }
                     else if (this.verticalAlignment
                             == VerticalAlignment.BOTTOM) {
-                        //TODO: shift block down to bottom
+                        System.out.println("SATD ID: 24");
                     }
                 }
             }
@@ -396,7 +396,7 @@ public class FlowArrangement implements Arrangement, Serializable {
      */
     protected Size2D arrangeNF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
-        // TODO: for now we are ignoring the height constraint
+        System.out.println("SATD ID: 25");
         return arrangeNN(container, g2);
     }
 
